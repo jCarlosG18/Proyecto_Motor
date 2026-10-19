@@ -5,4 +5,9 @@ potencia = voltaje * corriente
 resistencia = voltaje / corriente
 
 print("Potencia:", potencia, "W")
-print("Resistencia:", resistencia, "Ohm")   
+print("Resistencia:", resistencia, "Ohm")
+
+if potencia > 20:
+    print("ALERTA: Potencia elevada")
+else:
+    print("Funcionamiento normal")
